@@ -29,7 +29,7 @@ const Navbar= ({auth:{isAuthenticated,loading },logout})=>{
     return(
      <nav className="navbar bg-dark">
          <h6>
-             <Link to='/'>Blogbook</Link>
+             <Link to='/'>wordbok</Link>
          </h6>
          <hr/>
          {!loading && (<Fragment>
